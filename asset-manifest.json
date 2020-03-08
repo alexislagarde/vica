@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vica/static/css/main.f4a50cff.chunk.css",
+    "main.js": "/vica/static/js/main.b1ff605c.chunk.js",
+    "main.js.map": "/vica/static/js/main.b1ff605c.chunk.js.map",
+    "runtime-main.js": "/vica/static/js/runtime-main.a1aac4f4.js",
+    "runtime-main.js.map": "/vica/static/js/runtime-main.a1aac4f4.js.map",
+    "static/js/2.68d35397.chunk.js": "/vica/static/js/2.68d35397.chunk.js",
+    "static/js/2.68d35397.chunk.js.map": "/vica/static/js/2.68d35397.chunk.js.map",
+    "index.html": "/vica/index.html",
+    "precache-manifest.dbe35222ee60a1d3f17670defabf7541.js": "/vica/precache-manifest.dbe35222ee60a1d3f17670defabf7541.js",
+    "service-worker.js": "/vica/service-worker.js",
+    "static/css/main.f4a50cff.chunk.css.map": "/vica/static/css/main.f4a50cff.chunk.css.map",
+    "static/js/2.68d35397.chunk.js.LICENSE": "/vica/static/js/2.68d35397.chunk.js.LICENSE",
+    "static/media/LogoHeaderppal.jpg": "/vica/static/media/LogoHeaderppal.a0fc7c23.jpg",
+    "static/media/LogoPie.jpg": "/vica/static/media/LogoPie.3a24dd15.jpg",
+    "static/media/App.css": "/vica/static/media/vica-logo.d4fee685.png",
+    "static/media/vicaneum2.jpg": "/vica/static/media/vicaneum2.393cf51f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1aac4f4.js",
+    "static/js/2.68d35397.chunk.js",
+    "static/css/main.f4a50cff.chunk.css",
+    "static/js/main.b1ff605c.chunk.js"
+  ]
+}
