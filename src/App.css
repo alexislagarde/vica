@@ -1,0 +1,265 @@
+.SlideLogin {
+  text-align: center;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("./login_vica.jpg");
+  background-repeat: round;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/
+.Container-App-button
+{
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+  .limite{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+
+.App-body{
+min-height: 100vh;
+}
+
+.Boton-Login{
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.2;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: inherit;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  color: white;
+  margin-left: 110px;
+
+}
+
+
+
+.Boton-Login:hover:before {
+  opacity: 0;
+}
+
+.Boton-Login:before {
+  opacity: 0;
+}
+
+
+.texto-medio{
+  position: absolute;
+     top: 90%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+	   text-align: center;
+	   display: flex;
+	   flex-direction: column;
+	   align-items: center;
+	   justify-content: center;
+	   height: 100vh;
+}
+
+.comenzar
+{
+  background: #47a3da;
+	display:inline-block;
+	font-size:1.25em;
+	margin:20px;
+	padding:10px 0;
+	text-align:center;
+	width:200px;
+	text-decoration:none;
+  border-radius: 60px 60px 60px 60px;
+  -moz-border-radius: 60px 60px 60px 60px;
+  -webkit-border-radius: 60px 60px 60px 60px;
+   border: 1px solid #000000;
+   color: white;
+}
+.comenzar:hover {
+	cursor: pointer;
+  background-color: white;
+  color: black;
+
+}
+
+
+.App-inputs{
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px 0 38px;
+
+}
+
+
+
+.App-login{
+  width: 500px;
+  height: 550px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 55px 55px 177px 55px;
+  background: #005B90;
+  border: yellow 5px solid;
+}
+
+
+.limite{
+  width: 100%;
+  margin: 0 auto;
+}
+
+button:hover {
+	cursor: pointer;
+  background-color: white;
+  color: black;
+  }
+
+.container-login{
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.container-login::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+}
+
+.login-form{
+  width: 100%;
+}
+
+.login-form-logo {
+  font-size: 60px;
+  color: #333333;
+  background-image: url("./vica-logo.png");
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+input::-webkit-input-placeholder { color: #fff;}
+input:-moz-placeholder { color: #fff;}
+input::-moz-placeholder { color: #fff;}
+input:-ms-input-placeholder { color: #fff;}
+
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+
+textarea:focus, input:focus {
+  border-color: white;
+}
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+.p-t-27 {padding-top: 27px;}
+.p-b-34 {padding-bottom: 34px;}
+
+.login-form-title {
+  font-family: Poppins-Medium;
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+
+  display: block;
+}
+
+.form-input {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid rgba(255,255,255,0.24);
+  margin-bottom: 30px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@media (max-width: 600px) {
+  .App-login {
+    padding: 55px 15px 37px 15px;
+  }
+
+  .Boton-Login
+  {
+    margin-left: 70px;
+  }
+}

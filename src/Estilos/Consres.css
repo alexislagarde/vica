@@ -1,0 +1,214 @@
+.Consres
+{
+color: white;
+background-color: white;
+font-family: "Roboto", Verdana,sans-serif;
+
+}
+
+.Consres-header{
+text-align: Center;
+color: black;
+}
+
+.Conres-body
+{
+  text-align: left;
+  background: #005B90;
+  font-family: "Roboto", Verdana,sans-serif;
+  height: 707px;
+  width: 1098px;
+  }
+
+.Conres-table
+{
+  color:white;
+  margin-left: 1vh;
+  margin-bottom: 10vh;
+  border-collapse: separate;
+  border-spacing: 10px 15px ;
+  border-color: white;
+
+}
+
+.Consres-moneda{
+  background-image: url("./money.png")  ;
+  background-repeat: no-repeat;
+  text-align: right;
+  width: 90px;
+  background-position: 3px;
+}
+
+.Conres-table2
+{
+  color:white;
+  margin-bottom: 100px ;
+  border-collapse: separate;
+  border-spacing: 10px 15px;
+  border-color: white;
+  margin-left: 5px;
+}
+
+.Trabajos
+{
+ margin-left: 20px;
+ margin-top: 20px;
+}
+
+.DetallesTrabajo
+{
+margin-left: 20px;
+margin-top: 70px;
+}
+
+.Facturas
+{
+ margin-left: 20px;
+}
+
+.Items
+{
+margin-left: 6px;
+margin-top: 60px;
+}
+
+.FormaPago
+{
+  margin-top: 60px;
+}
+
+.Presupuestos
+{
+  margin-left: 20px;
+}
+
+.DetallePres
+{
+ margin-left: 5px;
+ margin-top: 45px;
+}
+
+.LogoHeader{
+padding: 14px 50px 75px ;
+border:outset;
+padding:1% 1em;
+background-color:yellow;
+height: 70px;
+min-width: 400px;
+width: 1320px;
+}
+
+.ImagenLogo{
+width:300px;
+}
+
+.IconoHome
+{
+  width:35px;
+  margin-left: 4px;
+}
+
+.IconosAtras
+{
+  width:35px;
+  margin-left: 400px;
+}
+
+@media all and (max-width: 800px) {
+    LogoHeader {
+      padding: 14px 50px 75px ;
+      border:outset;
+      padding:1% 1em;
+      background-color: white;
+      height: 70px;
+      min-width: 400px;
+    }
+}
+
+.Container-PiePagina{
+background: #1C70B0;  /* fallback for old browsers */
+border: 1px solid yellow;
+width: 1320px;
+height: 200px;
+display: inline-flex;
+margin-right: 8px;
+margin-top:6px;
+
+}
+
+
+.Container-logo{
+width: 30px;
+margin-top: 30px;
+}
+
+.Recibo
+{
+  margin-left: 15px;
+}
+
+.Logo-PiePagina{
+border-radius: 100%;
+width: 150px;
+margin-top: 30px;
+display: inline-block;
+}
+
+.PiePagina{
+font-family: "Roboto", Verdana,sans-serif;
+font-style: normal;
+font-weight: bold;
+color: white;
+font-size: 12px;
+display: inline-block;
+width: 550px;
+margin-right: 330px;
+margin-left: 200px;
+
+}
+
+
+
+.Container-Redes  {
+margin-top: 40px;
+display: inline-block;
+}
+
+.linkmaps{
+text-decoration: underline;
+color:yellow;
+text-shadow: 1px;
+}
+
+.linkmaps:hover {
+color: white;
+
+}
+
+.ImagenHeader{
+width:300px;
+margin-left: 405px;
+display: inline-flex;
+color:#005B90;
+font-style: italic;
+font-size: 25px;
+font-weight: bold;
+}
+
+.NavegationHeader
+{
+  height: 50px;
+  display: inline-flex;
+}
+
+
+.TextoMenu{
+font-family: "Roboto", Verdana,sans-serif;
+font-style:normal;
+font-weight: bold;
+font-size: 20px;
+}
+
+.list{
+margin-right: 16px;
+}
